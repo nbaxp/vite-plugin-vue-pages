@@ -1,0 +1,34 @@
+{
+  "name": "vite-plugin-vue-pages",
+  "version": "1.0.0",
+  "description": "File system based routing for Vue 3 applications using Vite",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nbaxp/vite-plugin-vue-pages.git"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "vue-router"
+  ],
+  "author": "76527413@qq.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nbaxp/vite-plugin-vue-pages/issues"
+  },
+  "homepage": "https://github.com/nbaxp/vite-plugin-vue-pages#readme",
+  "dependencies": {
+    "@vue/compiler-sfc": "^3.2.31",
+    "linq": "^4.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.70.1",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
